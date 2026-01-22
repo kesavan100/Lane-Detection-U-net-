@@ -25,3 +25,17 @@ LaneDetection/
 └─ lane_data_img/            # Sample dataset
    ├─ frames/                # Original road images
    └─ lane-masks/            # Corresponding lane masks
+
+Model Details
+
+Architecture: U-Net
+
+Input Size: 128x128 RGB images
+
+Loss Function: Binary Cross-Entropy
+
+Optimizer: Adam (learning rate = 0.001)
+
+Training Data: Clean road images with lane masks
+
+Output: 128x128 binary mask, rescaled to original image size
