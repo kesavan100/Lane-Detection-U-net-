@@ -2,6 +2,11 @@ Lane Detection Using U-Net
 
 This project implements lane detection on road images using a U-Net convolutional neural network. It detects lane lines, highlights them on the original image, and provides a binary lane mask. The app is deployed using Streamlit for easy interaction.
 
+<img width="681" height="294" alt="Picture2" src="https://github.com/user-attachments/assets/55f7af22-18ba-4521-ac09-534cc5991655" />
+
+<img width="681" height="328" alt="Picture3" src="https://github.com/user-attachments/assets/2991030b-6ade-4a64-8082-50d37aa8e81a" />
+
+
 Note: This model works best on clean, clear images. It may not perform well on blurry, low-light, or heavily occluded images.
 
 Features
